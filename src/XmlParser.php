@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace SteveSimpson\yii2;
+namespace SteveSimpson\xmlparser;
 
 use yii\base\BaseObject;
 use yii\web\BadRequestHttpException;

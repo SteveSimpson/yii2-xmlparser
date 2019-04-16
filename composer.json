@@ -1,5 +1,5 @@
 {
-  "name": "stevesimpson/yii2-xmlparser",
+  "name": "SteveSimpson/yii2-xmlparser",
   "description": "yii2 xml request parser",
   "keywords": ["yii2", "xml", "parse", "request", "Request"],
   "require": {
@@ -22,7 +22,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "SteveSimpson\\yii2\\": "src/"
+      "SteveSimpson\\xmlparser\\": "src/"
     }
   }
 }
