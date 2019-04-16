@@ -21,7 +21,7 @@ This is a patched version for PHP 7.2. Most of this file pertains to the upstrea
                 }
         ],
 	"require" : {
-                "stevesimpson/yii2-xmlparser" : "^0.2.1"
+                "stevesimpson/yii2-xmlparser" : "^0.2.12"
         },
 
 ```
