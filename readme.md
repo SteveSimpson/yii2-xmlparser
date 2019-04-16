@@ -10,7 +10,21 @@ This is a library help you to handle the xml request. As we all know, [Yii2](htt
 
 ## Patched
 
-This is a patched version for PHP 7.2. 
+This is a patched version for PHP 7.2. Most of this file pertains to the upstream. If you want to install this add this to composer.json:
+
+```
+        "repositories" : [
+                {
+                        "type": "vcs",
+                        "url": "https://github.com/SteveSimpson/yii2-xmlparser",
+                        "vendor-alias": "stevesimpson"
+                }
+        ],
+	"require" : {
+                "stevesimpson/yii2-xmlparser" : "^0.2.1"
+        },
+
+```
 
 ## Install
 
