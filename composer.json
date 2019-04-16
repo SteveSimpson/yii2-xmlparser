@@ -1,5 +1,5 @@
 {
-  "name": "light/yii2-xmlparser",
+  "name": "stevesimpson/yii2-xmlparser",
   "description": "yii2 xml request parser",
   "keywords": ["yii2", "xml", "parse", "request", "Request"],
   "require": {
@@ -14,11 +14,15 @@
     {
       "name": "lichunqiang",
       "email": "light-li@hotmail.com"
+    },
+    {
+      "name": "SteveSimpson",
+      "email": "software@lcsas.us"
     }
   ],
   "autoload": {
     "psr-4": {
-      "light\\yii2\\": "src/"
+      "SteveSimpson\\yii2\\": "src/"
     }
   }
 }

@@ -8,6 +8,10 @@
 
 This is a library help you to handle the xml request. As we all know, [Yii2](https://github.com/yiisoft/yii2) provided an built-in request parser for `json` like requests, it's `yii\web\JsonParser`. Sometimes, we need to handle the request of xml, so this library is birthed.
 
+## Patched
+
+This is a patched version for PHP 7.2. 
+
 ## Install
 
 Add `light/yii2-xmlparser` to composer.json, you can assign version as `*`:

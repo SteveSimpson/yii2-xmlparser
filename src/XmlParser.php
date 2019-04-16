@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace light\yii2;
+namespace SteveSimpson\yii2;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\web\BadRequestHttpException;
 use yii\web\RequestParserInterface;
 
@@ -19,11 +19,12 @@ use yii\web\RequestParserInterface;
  * The request parser for xml.
  *
  * @author lichunqiang <light-li@hotmail.com>
+ * @author SteveSimpson <software@lcsas.us>
  * @license MIT
  *
- * @version 0.2.11
+ * @version 0.2.11a
  */
-class XmlParser extends Object implements RequestParserInterface
+class XmlParser extends BaseObject implements RequestParserInterface
 {
     /**
      * If parser result as array, this is default,
