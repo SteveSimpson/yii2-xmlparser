@@ -1,8 +1,6 @@
 <?php
 
 /*
- * This file is part of the light/package.
- *
  * (c) lichunqiang <light-li@hotmail.com>
  *
  * This source file is subject to the MIT license that is bundled
@@ -18,11 +16,11 @@ use yii\web\RequestParserInterface;
 /**
  * The request parser for xml.
  *
- * @author lichunqiang <light-li@hotmail.com>
  * @author SteveSimpson <software@lcsas.us>
+ * @author lichunqiang <light-li@hotmail.com>
  * @license MIT
  *
- * @version 0.2.11a
+ * @version 0.2.12
  */
 class XmlParser extends BaseObject implements RequestParserInterface
 {
